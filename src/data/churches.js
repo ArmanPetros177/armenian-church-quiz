@@ -2,7 +2,7 @@ export const churches = [
   {
     id: 1,
     name: "Էջմիածնի Մայր Տաճար",
-    image: "src/assets/ejmiacin_mayr_tachar.jpg",
+    image: "public/assets/ejmiacin_mayr_tachar.jpg",
     location: "Արմավիրի մարզ, Վաղարշապատ",
     century: "IV դար"
   },
