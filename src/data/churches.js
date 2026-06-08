@@ -1,310 +1,597 @@
 export const churches = [
   {
-    id: 1,
-    name: "Էջմիածնի Մայր Տաճար",
-    image: "/assets/ejmiacin_mayr_tachar.jpg",
-    location: "Արմավիրի մարզ, Վաղարշապատ",
-    century: "IV դար"
-  },
-  {
-    id: 2,
-    name: "Խոր Վիրապ վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Khor_Virap_Armenia_2015.jpg/800px-Khor_Virap_Armenia_2015.jpg",
-    location: "Արարատի մարզ",
-    century: "XVII դ. (հիմնադրվել է VII դ.)"
-  },
-  {
-    id: 3,
-    name: "Գեղարդ վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Geghard_monastery_Armenia_2015.jpg/800px-Geghard_monastery_Armenia_2015.jpg",
-    location: "Կոտայքի մարզ",
-    century: "IV–XIII դ."
-  },
-  {
-    id: 4,
-    name: "Տաթևի վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Tatev_Monastery_Armenia_2015.jpg/800px-Tatev_Monastery_Armenia_2015.jpg",
-    location: "Սյունիքի մարզ",
-    century: "IX–XIII դ."
+    id: 21,
+    name: "Գանձասար",
+    image: "/assets/gandzasar.jpg",
+    location: "Արցախ",
+    century: "XIII դ."
   },
   {
     id: 5,
-    name: "Սևանավանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sevanavank_Monastery_2018.jpg/800px-Sevanavank_Monastery_2018.jpg",
-    location: "Գեղարքունիքի մարզ, Սևան",
-    century: "IX դար"
+    name: "Զվարթնոցի տաճար",
+    image: "/assets/zvartnots.jpg",
+    location: "Վաղարշապատ",
+    century: "VII դ."
   },
   {
-    id: 6,
-    name: "Նորավանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Noravank_Armenia_2015.jpg/800px-Noravank_Armenia_2015.jpg",
-    location: "Վայոց ձորի մարզ",
-    century: "XIII–XIV դ."
-  },
-  {
-    id: 7,
-    name: "Հաղպատ վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Haghpat_Monastery_2019_02.jpg/800px-Haghpat_Monastery_2019_02.jpg",
-    location: "Լոռու մարզ",
-    century: "X–XIII դ."
-  },
-  {
-    id: 8,
-    name: "Սանահին վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sanahin_monastery_Armenia_2015.jpg/800px-Sanahin_monastery_Armenia_2015.jpg",
-    location: "Լոռու մարզ",
-    century: "X–XIII դ."
-  },
-  {
-    id: 9,
-    name: "Գոշավանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Goshavank_Monastery_2018.jpg/800px-Goshavank_Monastery_2018.jpg",
-    location: "Տավուշի մարզ",
+    id: 33,
+    name: "Հավուց Թառի վանք",
+    image: "/assets/avuts_tar.jpg",
+    location: "Կոտայք",
     century: "XII–XIII դ."
   },
   {
-    id: 10,
-    name: "Հաղարծին վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Haghartsin_Monastery_2018.jpg/800px-Haghartsin_Monastery_2018.jpg",
-    location: "Տավուշի մարզ",
-    century: "X–XIII դ."
-  },
-  {
-    id: 11,
-    name: "Սաղմոսավանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Saghmosavank_Monastery_2019_01.jpg/800px-Saghmosavank_Monastery_2019_01.jpg",
-    location: "Արագածոտնի մարզ",
-    century: "XIII դար"
-  },
-  {
-    id: 12,
-    name: "Հովհաննավանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Hovhannavank_Monastery_2019_01.jpg/800px-Hovhannavank_Monastery_2019_01.jpg",
-    location: "Արագածոտնի մարզ",
-    century: "IV–XIII դ."
-  },
-  {
-    id: 13,
-    name: "Զվարթնոց տաճար",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zvartnots_Cathedral_Armenia_2015.jpg/800px-Zvartnots_Cathedral_Armenia_2015.jpg",
-    location: "Արմավիրի մարզ, Վաղարշապատ",
-    century: "VII դար"
-  },
-  {
-    id: 14,
-    name: "Սուրբ Հռիփսիմե եկեղեցի",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Saint_Hripsime_Church_2019.jpg/800px-Saint_Hripsime_Church_2019.jpg",
-    location: "Արմավիրի մարզ, Վաղարշապատ",
-    century: "VII դար"
-  },
-  {
-    id: 15,
-    name: "Սուրբ Գայանե եկեղեցի",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Saint_Gayane_Church_2019_01.jpg/800px-Saint_Gayane_Church_2019_01.jpg",
-    location: "Արմավիրի մարզ, Վաղարշապատ",
-    century: "VII դար"
-  },
-  {
-    id: 16,
-    name: "Շողակաթ եկեղեցի",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Shoghakat_Church_2019.jpg/800px-Shoghakat_Church_2019.jpg",
-    location: "Արմավիրի մարզ, Վաղարշապատ",
-    century: "XVII դար"
-  },
-  {
-    id: 17,
-    name: "Քեչառիս վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Kecharis_Monastery_2018.jpg/800px-Kecharis_Monastery_2018.jpg",
-    location: "Կոտայքի մարզ, Ծաղկաձոր",
-    century: "XI–XIII դ."
+    id: 2,
+    name: "Խոր Վիրապ",
+    image: "/assets/khor_virap.jpg",
+    location: "Արարատ",
+    century: "VII–XVII դ."
   },
   {
     id: 18,
     name: "Հայրավանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Hayravank_Monastery_2018.jpg/800px-Hayravank_Monastery_2018.jpg",
-    location: "Գեղարքունիքի մարզ",
+    image: "/assets/hayravank.jpg",
+    location: "Գեղարքունիք",
     century: "IX–XII դ."
   },
   {
-    id: 19,
-    name: "Կարմրավոր եկեղեցի",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Karmravor_Church_2019_02.jpg/800px-Karmravor_Church_2019_02.jpg",
-    location: "Արագածոտնի մարզ, Աշտարակ",
-    century: "VII դար"
+    id: 41,
+    name: "Մաստարա",
+    image: "/assets/mastara.jpg",
+    location: "Արագածոտն",
+    century: "V–VII դ."
   },
   {
-    id: 20,
-    name: "Ախթալա վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Akhtala_Monastery_2019_01.jpg/800px-Akhtala_Monastery_2019_01.jpg",
-    location: "Լոռու մարզ, Ախթալա",
-    century: "X դար"
+    id: 12,
+    name: "Հովհաննավանք",
+    image: "/assets/hovhannavank.jpg",
+    location: "Արագածոտն",
+    century: "IV–XIII դ."
   },
   {
-    id: 21,
-    name: "Կոբայր վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kobayr_Monastery_2019.jpg/800px-Kobayr_Monastery_2019.jpg",
-    location: "Լոռու մարզ, Թումանյան",
+    id: 9,
+    name: "Գոշավանք",
+    image: "/assets/goshavank.jpg",
+    location: "Տավուշ",
     century: "XII–XIII դ."
   },
   {
+    id: 14,
+    name: "Սուրբ Հռիփսիմե",
+    image: "/assets/hripsime.jpg",
+    location: "Վաղարշապատ",
+    century: "VII դ."
+  },
+  {
+    id: 6,
+    name: "Նորավանք",
+    image: "/assets/noravank.jpg",
+    location: "Վայոց ձոր",
+    century: "XIII դ."
+  },
+  {
+    id: 3,
+    name: "Գեղարդի վանք",
+    image: "/assets/geghard.jpg",
+    location: "Կոտայք",
+    century: "IV–XIII դ."
+  },
+  {
+    id: 17,
+    name: "Կեչառիսի վանական համալիր",
+    image: "/assets/kecharis.jpg",
+    location: "Ծաղկաձոր",
+    century: "XI–XIII դ."
+  },
+  {
+    id: 28,
+    name: "Ս. Գրիգոր Լուսավորիչ",
+    image: "/assets/g_lusavorich.jpg",
+    location: "Երևան",
+    century: "XXI դ."
+  },
+  {
+    id: 20,
+    name: "Ախթալա",
+    image: "/assets/axtala.jpg",
+    location: "Լոռի",
+    century: "X դ."
+  },
+  {
+    id: 1,
+    name: "Էջմիածին",
+    image: "/assets/ejmiacin_mayr_tachar.jpg",
+    location: "Վաղարշապատ",
+    century: "IV դ."
+  },
+  {
+    id: 10,
+    name: "Հաղարծին",
+    image: "/assets/hagharcin.jpg",
+    location: "Տավուշ",
+    century: "X–XIII դ."
+  },
+  {
     id: 22,
-    name: "Օձուն եկեղեցի",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Odzun_Church_2019_01.jpg/800px-Odzun_Church_2019_01.jpg",
-    location: "Լոռու մարզ, Օձուն",
+    name: "Օձուն",
+    image: "/assets/odzun.jpg",
+    location: "Լոռի",
     century: "VI–VII դ."
   },
   {
-    id: 23,
-    name: "Գանձասար վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Gandzasar_Monastery_2019.jpg/800px-Gandzasar_Monastery_2019.jpg",
-    location: "Մարտակերտի շրջան",
-    century: "XIII դար"
+    id: 11,
+    name: "Սաղմոսավանք",
+    image: "/assets/saghmosavank.jpg",
+    location: "Արագածոտն",
+    century: "XIII դ."
   },
   {
-    id: 24,
-    name: "Դադիվանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Dadivank_Monastery_2020.jpg/800px-Dadivank_Monastery_2020.jpg",
-    location: "Շաումյանի շրջան",
+    id: 4,
+    name: "Տաթևի վանական համալիր",
+    image: "/assets/tatev.jpg",
+    location: "Սյունիք",
     century: "IX–XIII դ."
   },
   {
+    id: 16,
+    name: "Շողակաթ",
+    image: "/assets/shoxakat.jpg",
+    location: "Վաղարշապատ",
+    century: "XVII դ."
+  },
+  {
+    id: 19,
+    name: "Կարմրավոր",
+    image: "/assets/karmravor.jpg",
+    location: "Աշտարակ",
+    century: "VII դ."
+  },
+  {
+    id: 7,
+    name: "Հաղպատ",
+    image: "/assets/axpat.jpg",
+    location: "Լոռի",
+    century: "X–XIII դ."
+  },
+  {
+    id: 8,
+    name: "Սանահին",
+    image: "/assets/sanahin.jpg",
+    location: "Լոռի",
+    century: "X–XIII դ."
+  },
+  {
+    id: 13,
+    name: "Զվարթնոց տաճար",
+    image: "/assets/zvartnots.jpg",
+    location: "Վաղարշապատ",
+    century: "VII դ."
+  },
+  {
+    id: 15,
+    name: "Ս. Գայանե",
+    image: "/assets/gayane.jpg",
+    location: "Վաղարշապատ",
+    century: "VII դ."
+  },
+  {
+    id: 23,
+    name: "Կիրանց",
+    image: "/assets/kirants.jpg",
+    location: "Տավուշ",
+    century: "XIII դ."
+  },
+  {
+    id: 24,
+    name: "Գտիչավանք",
+    image: "/assets/gtic.jpg",
+    location: "Արցախ",
+    century: "XIII դ."
+  },
+  {
     id: 25,
-    name: "Ամարաս վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Amaras_Monastery_2019.jpg/800px-Amaras_Monastery_2019.jpg",
-    location: "Մարտունու շրջան",
-    century: "IV դար"
+    name: "Մակարավանք",
+    image: "/assets/makaravank.jpg",
+    location: "Տավուշ",
+    century: "X–XIII դ."
   },
   {
     id: 26,
-    name: "Մարմաշեն վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Marmashen_Monastery_2019_01.jpg/800px-Marmashen_Monastery_2019_01.jpg",
-    location: "Շիրակի մարզ",
+    name: "Մարմաշեն",
+    image: "/assets/marmashen.jpg",
+    location: "Շիրակ",
     century: "X–XI դ."
   },
   {
     id: 27,
-    name: "Հառիճ վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Harichavank_Monastery_2019_02.jpg/800px-Harichavank_Monastery_2019_02.jpg",
-    location: "Շիրակի մարզ, Հառիճ",
+    name: "Հառիճավանք",
+    image: "/assets/harich.jpg",
+    location: "Շիրակ",
     century: "VII–XIII դ."
   },
   {
-    id: 28,
-    name: "Սուրբ Գրիգոր Լուսավորիչ տաճար",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Saint_Gregory_the_Illuminator_Cathedral_Yerevan.jpg/800px-Saint_Gregory_the_Illuminator_Cathedral_Yerevan.jpg",
-    location: "Երևան",
-    century: "XXI դար"
-  },
-  {
     id: 29,
-    name: "Վոռոտնավանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Vorotnavank_Monastery_2019.jpg/800px-Vorotnavank_Monastery_2019.jpg",
-    location: "Սյունիքի մարզ",
+    name: "Վահանավանք",
+    image: "/assets/vahanavank.jpg",
+    location: "Սյունիք",
     century: "X–XI դ."
   },
   {
     id: 30,
-    name: "Վահանավանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Vahanavank_Monastery_2019.jpg/800px-Vahanavank_Monastery_2019.jpg",
-    location: "Սյունիքի մարզ, Կապան",
+    name: "Որոտնավանք",
+    image: "/assets/vorotnavank.jpg",
+    location: "Սյունիք",
     century: "X–XI դ."
   },
   {
     id: 31,
-    name: "Թեղեր վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Tegher_Monastery_2019.jpg/800px-Tegher_Monastery_2019.jpg",
-    location: "Արագածոտնի մարզ",
-    century: "XIII դար"
+    name: "Տեղեր",
+    image: "/assets/texer.jpg",
+    location: "Արագածոտն",
+    century: "XIII դ."
   },
   {
     id: 32,
-    name: "Սուրբ Մեսրոպ Մաշտոց (Օշական)",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Saint_Mesrop_Mashtots_Church_2019_01.jpg/800px-Saint_Mesrop_Mashtots_Church_2019_01.jpg",
-    location: "Արագածոտնի մարզ, Օշական",
-    century: "XIX դ. (հիմն.՝ V դ.)"
+    name: "Օշականի Սուրբ Մեսրոպ Մաշտոց եկեղեցի",
+    image: "/assets/oshakan.jpg",
+    location: "Արագածոտն",
+    century: "V դ."
   },
   {
     id: 33,
-    name: "Սպիտակավոր վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Spitakavor_Monastery_2019.jpg/800px-Spitakavor_Monastery_2019.jpg",
-    location: "Վայոց ձորի մարզ",
-    century: "XIV դար"
+    name: "Գնթևանք",
+    image: "/assets/gndevank.jpg",
+    location: "Վայոց ձոր",
+    century: "X դ."
   },
   {
     id: 34,
-    name: "Գտիչ վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Gtichavank_Monastery_2019.jpg/800px-Gtichavank_Monastery_2019.jpg",
-    location: "Հադրութի շրջան",
-    century: "XIII դար"
+    name: "Բղենո Նորավանք",
+    image: "/assets/bxeno.jpg",
+    location: "Սյունիք",
+    century: "X–XI դ."
   },
   {
     id: 35,
-    name: "Ամբերդի Վահրամաշեն",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Amberd_Vahramashen_Church_2019_01.jpg/800px-Amberd_Vahramashen_Church_2019_01.jpg",
-    location: "Արագածոտնի մարզ, Ամբերդ",
-    century: "XI դար"
+    name: "Սպիտակավոր",
+    image: "/assets/spitakavor.jpg",
+    location: "Վայոց ձոր",
+    century: "XIV դ."
   },
   {
     id: 36,
-    name: "Ծաղաց Քար վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tsaghats_Kar_Monastery_2019.jpg/800px-Tsaghats_Kar_Monastery_2019.jpg",
-    location: "Վայոց ձորի մարզ",
-    century: "X դար"
+    name: "Ավան տաճար",
+    image: "/assets/avan.jpg",
+    location: "Երևան",
+    century: "VI դ."
   },
   {
     id: 37,
-    name: "Մակարավանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Makaravank_Monastery_2019.jpg/800px-Makaravank_Monastery_2019.jpg",
-    location: "Տավուշի մարզ, Աչաջուր",
-    century: "X–XIII դ."
+    name: "Եգվարդի տաճար",
+    image: "/assets/exvard.jpg",
+    location: "Կոտայք",
+    century: "1301"
   },
   {
     id: 38,
-    name: "Կիրանց վանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Kirants_Monastery_2019.jpg/800px-Kirants_Monastery_2019.jpg",
-    location: "Տավուշի մարզ, Կիրանց",
-    century: "XIII դար"
+    name: "Ս. Սարգիս",
+    image: "/assets/sargis1.jpg",
+    location: "Երևան",
+    century: "XIX դ."
   },
   {
     id: 39,
-    name: "Սիսիանի Սուրբ Հովհաննես",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sisian_Saint_John_Church_2019.jpg/800px-Sisian_Saint_John_Church_2019.jpg",
-    location: "Սյունիքի մարզ, Սիսիան",
-    century: "VII դար"
+    name: "Ս. Զորավոր",
+    image: "/assets/zoravor.jpg",
+    location: "Երևան",
+    century: "XVII դ."
   },
   {
     id: 40,
-    name: "Առուճ տաճար",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Aruchavank_Cathedral_2019.jpg/800px-Aruchavank_Cathedral_2019.jpg",
-    location: "Արագածոտնի մարզ, Առուճ",
-    century: "VII դար"
+    name: "Կաթողիկե",
+    image: "/assets/katoxike.jpg",
+    location: "Երևան",
+    century: "XIII դ."
   },
   {
     id: 41,
-    name: "Մաստարա Սուրբ Հովհաննես",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Mastara_Saint_John_Church_2019_01.jpg/800px-Mastara_Saint_John_Church_2019_01.jpg",
-    location: "Արագածոտնի մարզ, Մաստարա",
-    century: "V–VII դ."
+    name: "Ս. Անна",
+    image: "/assets/anna.jpg",
+    location: "Երևան",
+    century: "2015"
   },
   {
     id: 42,
-    name: "Ծծեռնավանք",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Tsitsernavank_Monastery_2018.jpg/800px-Tsitsernavank_Monastery_2018.jpg",
-    location: "Քաշաթաղի շրջան",
-    century: "IV–VI դ."
+    name: "Արուճի տաճար",
+    image: "/assets/aruch.jpg",
+    location: "Արագածոտն",
+    century: "VII դ."
   },
   {
     id: 43,
-    name: "Սուրբ Սարգիս եկեղեցի (Երևան)",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Saint_Sarkis_Church_Yerevan.jpg/800px-Saint_Sarkis_Church_Yerevan.jpg",
-    location: "Երևան, Կենտրոն",
-    century: "XIX դ. (հիմն.՝ XV դ.)"
+    name: "Իրինդ",
+    image: "/assets/irind.jpg",
+    location: "Արագածոտն",
+    century: "VII դ."
   },
   {
     id: 44,
-    name: "Զորավոր Սուրբ Աստվածածին",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Zoravor_Surp_Astvatsatsin_Church_Yerevan_2019.jpg/800px-Zoravor_Surp_Astvatsatsin_Church_Yerevan_2019.jpg",
-    location: "Երևան, Կենտրոն",
-    century: "XVII–XVIII դ."
+    name: "Լմբատավանք",
+    image: "/assets/lmbatavank.jpg",
+    location: "Շիրակ",
+    century: "VI–VII դ."
+  },
+  {
+    id: 45,
+    name: "Կասախի բազիլիկա",
+    image: "/assets/kasax.jpg",
+    location: "Արագածոտն",
+    century: "V դ."
+  },
+  {
+    id: 46,
+    name: "Պտղնի",
+    image: "/assets/ptxni.jpg",
+    location: "Կոտայք",
+    century: "VI դ."
+  },
+  {
+    id: 47,
+    name: "Երերույք",
+    image: "/assets/ereryuk.jpg",
+    location: "Շիրակ",
+    century: "V դ."
+  },
+  {
+    id: 48,
+    name: "Դվին",
+    image: "/assets/dvin.jpg",
+    location: "Արարատ",
+    century: "V–VII դ."
+  },
+  {
+    id: 49,
+    name: "Արտավազիկ",
+    image: "/assets/artavazik.jpg",
+    location: "Կոտայք",
+    century: "VII դ."
+  },
+  {
+    id: 51,
+    name: "Ս. Պողոս-Պետրոս",
+    image: "/assets/poxos.jpg",
+    location: "Երևան",
+    century: "V դ."
+  },
+  {
+    id: 53,
+    name: "Բջնի",
+    image: "/assets/bjni.jpg",
+    location: "Կոտայք",
+    century: "XI դ."
+  },
+  {
+    id: 55,
+    name: "Դեղձնուտ",
+    image: "/assets/dexcut.jpg",
+    location: "Տավուշ",
+    century: "XIII դ."
+  },
+  {
+    id: 56,
+    name: "Վանևան",
+    image: "/assets/vanevan.jpg",
+    location: "Գեղարքունիք",
+    century: "X դ."
+  },
+  {
+    id: 57,
+    name: "Մաքենյաց",
+    image: "/assets/makenyac.jpg",
+    location: "Գեղարքունիք",
+    century: "IX–X դ."
+  },
+  {
+    id: 58,
+    name: "Կոթավանք",
+    image: "/assets/kotavank.jpg",
+    location: "Գեղարքունիք",
+    century: "IX դ."
+  },
+  {
+    id: 59,
+    name: "Սևանավանք",
+    image: "/assets/sevanavank.jpg",
+    location: "Գեղարքունիք",
+    century: "IX դ."
+  },
+  {
+    id: 60,
+    name: "Հոռոմայր",
+    image: "/assets/horomayr.jpg",
+    location: "Լոռի",
+    century: "XII դ."
+  },
+  {
+    id: 61,
+    name: "Արենիի եկեղեցի",
+    image: "/assets/areni.jpg",
+    location: "Վայոց ձոր",
+    century: "XIV դ."
+  },
+  {
+    id: 62,
+    name: "Ջուխտակ վանք",
+    image: "/assets/juxtak.jpg",
+    location: "Տավուշ",
+    century: "XIII դ."
+  },
+  {
+    id: 63,
+    name: "Մատոսավանք",
+    image: "/assets/matosavank.jpg",
+    location: "Տավուշ",
+    century: "XIII դ."
+  },
+  {
+    id: 64,
+    name: "Սրվեղ",
+    image: "/assets/srvex.jpg",
+    location: "Տավուշ",
+    century: "XIII դ."
+  },
+  {
+    id: 65,
+    name: "Կամակատար",
+    image: "/assets/kamakatar.jpg",
+    location: "Վանաձոր",
+    century: "VI դ."
+  },
+  {
+    id: 66,
+    name: "Նիկոլայ եկեղեցի",
+    image: "/assets/nikolay.jpg",
+    location: "Լոռի",
+    century: "XIX դ."
+  },
+  {
+    id: 67,
+    name: "Հրեշտակապետաց",
+    image: "/assets/hresh.jpg",
+    location: "Վաղարշապատ",
+    century: "XX դ."
+  },
+  {
+    id: 68,
+    name: "Ս. Երրորդություն",
+    image: "/assets/erord.jpg",
+    location: "Երևան",
+    century: "XXI դ."
+  },
+  {
+    id: 70,
+    name: "Կապույտ մզկիթ",
+    image: "/assets/golubaya.jpg",
+    location: "Երևան",
+    century: "XVIII դ."
+  },
+  {
+    id: 74,
+    name: "Ս. Շուշանիկ",
+    image: "/assets/shushanik.jpg",
+    location: "Բագարան",
+    century: "V դ."
+  },
+  {
+    id: 75,
+    name: "Արիչավանք",
+    image: "/assets/arich.jpg",
+    location: "Շիրակ",
+    century: "XIII դ."
+  },
+  {
+    id: 79,
+    name: "Քոբայր",
+    image: "/assets/kobayr.jpg",
+    location: "Լոռի",
+    century: "XII դ."
+  },
+  {
+    id: 80,
+    name: "Հնեվանք",
+    image: "/assets/hnevank.jpg",
+    location: "Լոռի",
+    century: "VII–XII դ."
+  },
+  {
+    id: 82,
+    name: "Ս. Հովհաննես (Արդվի)",
+    image: "/assets/ardvi.jpg",
+    location: "Լոռի",
+    century: "VIII դ."
+  },
+  {
+    id: 83,
+    name: "Կապտավանք",
+    image: "/assets/kaptavank.jpg",
+    location: "Գեղարքունիք",
+    century: "XIV դ."
+  },
+  {
+    id: 88,
+    name: "Եգվարդի Զորավոր",
+    image: "/assets/egvard_zoravor.jpg",
+    location: "Կոտայք",
+    century: "VII դ."
+  },
+  {
+    id: 89,
+    name: "Արուճ բազիլիկա",
+    image: "/assets/aruch_bazilika.jpg",
+    location: "Արագածոտն",
+    century: "VII դ."
+  },
+  {
+    id: 90,
+    name: "Ս. Խաչ եկեղեցի",
+    image: "/assets/xach.jpg",
+    location: "Երևան",
+    century: "XIX դ."
+  },
+  {
+    id: 95,
+    name: "Ս. Կարապետ",
+    image: "/assets/karapet.jpg",
+    location: "Արարատ",
+    century: "XIV դ."
+  },
+  {
+    id: 98,
+    name: "Գյումրի Ս. Ամենափրկիչ",
+    image: "/assets/amenaprkich.jpg",
+    location: "Գյումրի",
+    century: "XIX դ."
+  },
+  {
+    id: 99,
+    name: "Ս. Հովհաննես Երևան",
+    image: "/assets/hovhannes.jpg",
+    location: "Երևան",
+    century: "1710"
+  },
+  {
+    id: 101,
+    name: "Ս. Թեոդորոս",
+    image: "/assets/teodoros.jpg",
+    location: "Կոտայք",
+    century: "VII դ."
+  },
+  {
+    id: 102,
+    name: "Ս. Մարիամ",
+    image: "/assets/mariam.jpg",
+    location: "Երևան",
+    century: "XX դ."
+  },
+  {
+    id: 103,
+    name: "Սուրբ Կիրակի եկեղեցի (Արզնի)",
+    image: "/assets/arzni.jpg",
+    location: "Կոտայք",
+    century: "VII դ."
+  },
+  {
+    id: 104,
+    name: "Գառնիի հեթանոսական տաճար",
+    image: "/assets/garni.jpg",
+    location: "Կոտայք",
+    century: "I դ."
+  },
+  {
+    id: 109,
+    name: "Ս. Հակոբ",
+    image: "/assets/hakob.jpg",
+    location: "Տավուշ",
+    century: "1679"
   }
 ];
