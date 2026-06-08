@@ -145,7 +145,7 @@ export default function App() {
             />
 
             {/* Navigation */}
-            <div className="w-full max-w-4xl mx-auto px-4 flex justify-between items-center gap-4 mb-8">
+            <div className="w-full max-w-4xl mx-auto px-4 mt-6 flex justify-between items-center gap-4 mb-8">
               <button
                 id="prev-btn"
                 onClick={handlePrev}
