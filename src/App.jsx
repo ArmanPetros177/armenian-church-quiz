@@ -108,7 +108,7 @@ export default function App() {
               </h2>
 
               <p className="text-slate-300 text-sm md:text-base leading-relaxed mb-6">
-                Ձեզ անհրաժեշտ կլինի ճանաչել <strong>85 Հայաստանի նշանավոր սրբավայրեր</strong>՝ բարձրորակ լուսանկարների հիման վրա։
+                Ձեզ անհրաժեշտ կլինի ճանաչել <strong>Հայաստանի 85 նշանավոր սրբավայրերը</strong>՝ բարձրորակ լուսանկարների հիման վրա։
                 Մենք բացառել ենք քիչ հայտնի վայրերը՝ թողնելով հայկական ճարտարապետության ամենաարժեքավոր նմուշները։
               </p>
 
@@ -276,8 +276,7 @@ export default function App() {
 
       {/* ── Footer ── */}
       <footer className="w-full text-center py-6 text-xs text-slate-500 z-10 border-t border-white/5 mt-12 bg-slate-950/20 backdrop-blur-sm">
-        <p>© 2026 Հայաստանի Եկեղեցիներն ու Վանքերը • Ինտերակտիվ լուսանկարային թեստ</p>
-        <p className="mt-1 text-slate-600">Մշակութային ժառանգության հանդեպ սիրով</p>
+        <p>© 2026 INDMAN Production • Հայաստանի Եկեղեցիներն ու Վանքերը </p>
       </footer>
     </div>
   );
