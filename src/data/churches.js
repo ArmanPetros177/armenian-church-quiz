@@ -140,13 +140,6 @@ export const churches = [
     century: "XVII դ."
   },
   {
-    id: 19,
-    name: "Կարմրավոր",
-    image: "/assets/karmravor.jpg",
-    location: "Աշտարակ",
-    century: "VII դ."
-  },
-  {
     id: 7,
     name: "Հաղպատ",
     image: "/assets/axpat.jpg",
@@ -338,7 +331,7 @@ export const churches = [
   {
     id: 47,
     name: "Երերույք",
-    image: "/assets/ereryuk.jpg",
+    image: "/assets/ereruyk.jpg",
     location: "Շիրակ",
     century: "V դ."
   },
@@ -504,13 +497,6 @@ export const churches = [
     century: "VIII դ."
   },
   {
-    id: 83,
-    name: "Կապտավանք",
-    image: "/assets/kaptavank.jpg",
-    location: "Գեղարքունիք",
-    century: "XIV դ."
-  },
-  {
     id: 88,
     name: "Եգվարդի Զորավոր",
     image: "/assets/exvard_zoravor.jpg",
@@ -551,13 +537,6 @@ export const churches = [
     image: "/assets/hovhannes.jpg",
     location: "Երևան",
     century: "1710"
-  },
-  {
-    id: 102,
-    name: "Ս. Մարիամ",
-    image: "/assets/mariam.jpg",
-    location: "Երևան",
-    century: "XX դ."
   },
   {
     id: 103,

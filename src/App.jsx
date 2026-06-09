@@ -61,11 +61,11 @@ export default function App() {
 
   const getRank = (s) => {
     const pct = (s / churches.length) * 100;
-    if (pct === 100) return { title: 'Հայ ճարտարապետության վարպետ', color: 'text-amber-400 border-amber-400 bg-amber-500/10' };
-    if (pct >= 85) return { title: 'Հայ ժառանգության պահապան', color: 'text-purple-400 border-purple-400 bg-purple-500/10' };
-    if (pct >= 60) return { title: 'Հնագույն ճարտ. փորձագետ', color: 'text-indigo-400 border-indigo-400 bg-indigo-500/10' };
-    if (pct >= 30) return { title: 'Ոգևորված ուսումնասիրող', color: 'text-emerald-400 border-emerald-400 bg-emerald-500/10' };
-    return { title: 'Սկսնակ ուխտավոր', color: 'text-slate-400 border-slate-500 bg-slate-500/10' };
+    if (pct === 100) return { title: 'Արարատյան Վարպետ', color: 'text-amber-400 border-amber-400 bg-amber-500/10' };
+    if (pct >= 85) return { title: 'Հայ ճարտարապետության վարպետ', color: 'text-purple-400 border-purple-400 bg-purple-500/10' };
+    if (pct >= 60) return { title: 'Ճարտարապետության Գիտակ', color: 'text-indigo-400 border-indigo-400 bg-indigo-500/10' };
+    if (pct >= 30) return { title: 'Սկսնակ Գիտակ', color: 'text-emerald-400 border-emerald-400 bg-emerald-500/10' };
+    return { title: 'Սկսնակ', color: 'text-slate-400 border-slate-500 bg-slate-500/10' };
   };
 
   const rank = getRank(score);
@@ -191,18 +191,18 @@ export default function App() {
                 Թեստն ավարտված է!
               </h2>
               <p className="text-slate-400 text-sm md:text-base mb-6">
-                Դուք պատասխանել եք բոլոր 44 հարցերին։ Ահա Ձեր արդյունքները.
+                Դուք պատասխանել եք բոլոր81 հարցերին։ Ահա Ձեր արդյունքները.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                 <div className="bg-slate-950/40 border border-white/5 rounded-2xl p-5">
-                  <p className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Ձեր հաշիվ</p>
+                  <p className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Ձեր հաշիվը</p>
                   <p className="text-4xl font-bold text-indigo-400 font-mono mt-1">
-                    {score} <span className="text-lg text-slate-400 font-normal">/ 44</span>
+                    {score} <span className="text-lg text-slate-400 font-normal">81</span>
                   </p>
                 </div>
                 <div className="bg-slate-950/40 border border-white/5 rounded-2xl p-5">
-                  <p className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Ճշտություն</p>
+                  <p className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Ճշգրտություն</p>
                   <p className="text-4xl font-bold text-emerald-400 font-mono mt-1">
                     {Math.round((score / churches.length) * 100)}%
                   </p>
