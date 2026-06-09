@@ -198,7 +198,7 @@ export default function App() {
                 <div className="bg-slate-950/40 border border-white/5 rounded-2xl p-5">
                   <p className="text-xs text-slate-400 uppercase tracking-wider font-semibold">Ձեր հաշիվը</p>
                   <p className="text-4xl font-bold text-indigo-400 font-mono mt-1">
-                    {score} <span className="text-lg text-slate-400 font-normal">81</span>
+                    {score} <span className="text-lg text-slate-400 font-normal">80</span>
                   </p>
                 </div>
                 <div className="bg-slate-950/40 border border-white/5 rounded-2xl p-5">
