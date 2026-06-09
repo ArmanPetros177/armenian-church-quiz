@@ -191,7 +191,7 @@ export default function App() {
                 Թեստն ավարտված է!
               </h2>
               <p className="text-slate-400 text-sm md:text-base mb-6">
-                Դուք պատասխանել եք բոլոր81 հարցերին։ Ահա Ձեր արդյունքները.
+                Դուք պատասխանել եք բոլոր 80 հարցերին։ Ահա Ձեր արդյունքները.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
