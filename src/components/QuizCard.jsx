@@ -41,10 +41,11 @@ export default function QuizCard({ church, status }) {
         <img
           src={church.image}
           alt="Անհայտ եկեղեցի"
-          className={`w-full h-full object-cover select-none pointer-events-none transition-all duration-700
-            ${loading ? 'opacity-0 scale-105' : 'opacity-100 scale-100'}
-            ${status ? 'brightness-[0.85]' : ''}
-          `}
+          className={`w-full h-full object-scale-down object-center select-none pointer-events-none transition-all duration-700
+  ${loading ? 'opacity-0 scale-105' : 'opacity-100 scale-100'}
+  ${status ? 'brightness-[0.85]' : ''}
+  [image-rendering:auto]
+`}
           onLoad={() => setLoading(false)}
           onError={() => { setLoading(false); setError(true); }}
         />

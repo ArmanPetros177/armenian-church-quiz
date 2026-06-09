@@ -177,7 +177,7 @@ export const churches = [
   {
     id: 23,
     name: "Կիրանց",
-    image: "/assets/kirants.jpg",
+    image: "/assets/kiranc.jpg",
     location: "Տավուշ",
     century: "XIII դ."
   },
@@ -295,8 +295,8 @@ export const churches = [
   },
   {
     id: 41,
-    name: "Ս. Անна",
-    image: "/assets/anna.jpg",
+    name: "Ս. Աննա",
+    image: "/assets/anna.jpeg",
     location: "Երևան",
     century: "2015"
   },
@@ -464,7 +464,7 @@ export const churches = [
   {
     id: 68,
     name: "Ս. Երրորդություն",
-    image: "/assets/erord.jpg",
+    image: "/assets/errord.jpg",
     location: "Երևան",
     century: "XXI դ."
   },
@@ -481,13 +481,6 @@ export const churches = [
     image: "/assets/shushanik.jpg",
     location: "Բագարան",
     century: "V դ."
-  },
-  {
-    id: 75,
-    name: "Արիչավանք",
-    image: "/assets/arich.jpg",
-    location: "Շիրակ",
-    century: "XIII դ."
   },
   {
     id: 79,
@@ -520,7 +513,7 @@ export const churches = [
   {
     id: 88,
     name: "Եգվարդի Զորավոր",
-    image: "/assets/egvard_zoravor.jpg",
+    image: "/assets/exvard_zoravor.jpg",
     location: "Կոտայք",
     century: "VII դ."
   },
@@ -558,13 +551,6 @@ export const churches = [
     image: "/assets/hovhannes.jpg",
     location: "Երևան",
     century: "1710"
-  },
-  {
-    id: 101,
-    name: "Ս. Թեոդորոս",
-    image: "/assets/teodoros.jpg",
-    location: "Կոտայք",
-    century: "VII դ."
   },
   {
     id: 102,
